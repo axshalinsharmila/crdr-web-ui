@@ -1,0 +1,31 @@
+
+  .form-wrapper {
+      max-width: 664px;
+      width: 100%;
+    }
+    .confirmationLabel {
+      margin-top: 3rem;
+    }
+    .radioGroupHorizontal {
+      margin-top: 20px;
+    }
+    .radio {
+      margin-right: 3rem;
+    }
+    .documentIdLabel {
+      margin-top: 1rem;
+    }
+    .searchInput {
+      width: 100%;
+      border-radius: 30px;
+    }
+    .formWrapper :global(.ant-input-affix-wrapper) > :global(input.ant-input:focus){
+      outline: none;
+      outline-color: initial;
+    }
+    .inputWrapper {
+      flex: 1;
+      margin-top: 1rem;
+      align-items: center;
+    }
+    
